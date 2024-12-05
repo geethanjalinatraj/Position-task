@@ -1,0 +1,88 @@
+.container{
+    height: 600px;
+    width: 900px;
+    border: 3px solid maroon;
+    position: relative;
+}
+
+.box1{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border: 2px solid red;
+}
+
+.box2{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border: 2px solid green;
+    border-radius: 50%;
+    top: 0;
+    right: 43%;
+}
+
+.box3{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border: 2px solid red;
+    right: 0;
+    top: 0;
+}
+
+.box4{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border: 2px solid green;
+    border-radius: 50%;
+    top: 38%;
+    left: 0;
+
+}
+.box5{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border: 2px solid green;
+    border-radius: 50%;
+    right: 0;
+    top: 38%;
+
+}
+
+.text{
+    font-size: larger;
+    text-align: center;
+    margin-top: 33%;
+}
+
+.box6{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border: 2px solid red;
+    bottom: 0;
+    left: 0;
+}
+
+.box7{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border: 2px solid green;
+    border-radius: 50%;
+    bottom: 0;
+    right: 43%;
+}
+
+.box8{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border: 2px solid red;
+    right: 0;
+    bottom: 0;
+
+}
